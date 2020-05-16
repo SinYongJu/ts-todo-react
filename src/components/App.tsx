@@ -11,7 +11,7 @@ function App() {
       <div className="App-header">
         <Header {...user}/>
         <main>
-          <Counter/>
+          <Counter initCount={0}/>
           Contents...
         </main>
       </div>
