@@ -3,6 +3,7 @@ import '../assets/css/App.css';
 import Header from './Header';
 import Counter from './Counter';
 import Counter2 from './Counter2';
+import Todo from './Todo';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <main>
           <Counter initCount={0}/>
           <Counter2 />
+          <Todo/>
           Contents...
         </main>
       </div>
