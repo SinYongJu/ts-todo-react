@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/App.css';
 import Header from './Header';
+import Counter from './Counter';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="App-header">
         <Header {...user}/>
         <main>
+          <Counter/>
           Contents...
         </main>
       </div>
