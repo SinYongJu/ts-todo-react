@@ -1,13 +1,14 @@
 import React from 'react';
 import '../assets/css/App.css';
+import Header from './Header';
+
 
 function App() {
+  const user = { user :'me' }
   return (
     <div className="App">
       <div className="App-header">
-        <header>
-          <h1>React ts Todo</h1>
-        </header>
+        <Header {...user}/>
         <main>
           Contents...
         </main>
