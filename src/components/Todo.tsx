@@ -12,6 +12,11 @@ interface Todos{
 }
 
 
+function todoReducer () {
+    
+}
+
+
 function Todo (props:any) {
     const [todos, setTodos] = useState<Todos>({targetId : 0,input:'', list: []})
 
@@ -110,7 +115,7 @@ function Todo (props:any) {
     }
 
     const {input, list} = todos
-    
+
     return <React.Fragment>
         <h2>Todo</h2>
         <div>
