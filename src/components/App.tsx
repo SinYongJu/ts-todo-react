@@ -4,6 +4,7 @@ import Header from './Header';
 import Counter from './Counter';
 import Counter2 from './Counter2';
 import Todo from './Todo';
+import TodoWithReducer from './TodoWithReducer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Counter initCount={0}/>
           <Counter2 />
           <Todo/>
+          <TodoWithReducer/>
           Contents...
         </main>
       </div>

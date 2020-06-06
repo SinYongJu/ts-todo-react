@@ -11,12 +11,6 @@ interface Todos{
     list : Array<TodoItem>
 }
 
-
-function todoReducer () {
-    
-}
-
-
 function Todo (props:any) {
     const [todos, setTodos] = useState<Todos>({targetId : 0,input:'', list: []})
 
